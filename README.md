@@ -18,6 +18,9 @@ O jogador vivencia o plantio, transporte e venda dos alimentos, além de partici
    - Veja sua pontuação pela venda dos produtos.
 5. **Fase Bônus – Quiz Sustentável:**
    - Responda às perguntas sobre sustentabilidade e conexão campo-cidade.
+     
+## 🎮 Link do projeto
+https://editor.p5js.org/cassiane.lourenco/full/krXFXYjHF
 
 ## 📱 Controles
 
