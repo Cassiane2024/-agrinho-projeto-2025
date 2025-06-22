@@ -22,6 +22,9 @@ O jogador vivencia o plantio, transporte e venda dos alimentos, além de partici
 ## 🎮 Link do projeto
 https://editor.p5js.org/cassiane.lourenco/full/krXFXYjHF
 
+## 🎮 Link de hospedagem do GitHub
+https://cassiane2024.github.io/-agrinho-projeto-2025/
+
 ## 📱 Controles
 
 | Plataforma | Ação               | Controles                      |
