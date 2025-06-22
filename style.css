@@ -1,7 +1,60 @@
-html, body {
+/* Estilo geral */
+body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background-color: #f0f8ff;
 }
-canvas {
-  display: block;
+
+/* Menu inicial: ocupa a tela toda, centralizado */
+#menu {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(144, 238, 144, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+/* 🌟 Efeito ao passar o mouse no botão */
+#startButton {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Controles para celular: fixo na base, centralizado */
+#touchControls {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  gap: 10px;
+}
+
+/* Botões das setas */
+#touchControls button {
+  padding: 20px 30px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Classe para esconder elementos */
+.hidden {
+  display: none;
 }
