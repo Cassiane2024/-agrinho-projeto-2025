@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/p5.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- 🎯 Título da aba do navegador -->
+  <title>Jogo da Fazenda Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- 🎨 Biblioteca p5.js para gráficos -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  
+    <!-- 🔊 Biblioteca p5.sound para sons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+  
+</head>
+<body>
+  <!-- Menu inicial -->
+  <div id="menu">
+    <h1>Jogo da Fazenda Sustentável</h1>
+    <p>Uma jornada pelo ciclo dos alimentos</p>
+    <button id="startButton">Iniciar Jogo</button>
+  </div>
 
-  </head>
-  <body>
-    <main>
-    </main>
-    <script src="sketch.js"></script>
-  </body>
+  <!-- Botão de som fixo -->
+  <button id="soundToggleButton" title="Ativar/Desativar Som" style="position:fixed; top:20px; right:20px; font-size:24px; z-index:150; cursor:pointer; display:none;">🔊</button>
+
+<!--Controles para celular (setas) -->
+  <div id="touchControls" class="hidden">
+    <button id="upButton">⬆️</button>
+    <button id="downButton">⬇️</button>
+  </div>
+
+  <script src="sketch.js"></script>
+</body>
 </html>
